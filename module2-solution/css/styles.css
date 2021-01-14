@@ -3,43 +3,51 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 h1 {
-    text-align: center;
+    font-size: 175%;
+    text-align: center;;
 }
 
-.row {
-    width: 100%;
+.box {
+    position: relative;
+    border: 1px solid black;
+    background-color: gray;
+    margin: 10px;
+    width: 90%;
+}
+
+.box > p {
+    font-size: 125%
+    text-align: center;
+    padding-top: 30px;
 }
 
 .col-lg-4, .col-md-6, .col-sm-12 {
-    border: 2px solid black;
-    background-color: rgb(143, 148, 146);
     float: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 .box-title-1, .box-title-2, .box-title-3 {
-    float: right;
-    text-align: center;
     font-weight: bold;
-    position: relative;
+    font-size: large;
+    position: absolute;
+    top: -1px;
+    right: -1px;
     border: 1px solid black;
     width: 30%;
+    text-align: center;
 }
 
 .box-title-1 {
-    background-color: rosybrown;
+    background-color: cornflowerblue;
 }
 
 .box-title-2 {
-    background-color: red;
+    color: white;
+    background-color: rgb(214, 22, 22);
 }
 
 .box-title-3 {
-    background-color: yellow;
+    background-color: yellowgreen;
 }
 
 @media (min-width: 992px) {
@@ -54,7 +62,7 @@ h1 {
     }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
     .col-sm-12 {
         width: 100%;
     }
