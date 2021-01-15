@@ -14,12 +14,12 @@ h1 {
     background-color: gray;
     margin: 10px;
     width: 90%;
+    height: 160px;
 }
 
 .box > p {
-    font-size: 125%
+    margin-top: 30px;
     text-align: center;
-    padding-top: 30px;
 }
 
 .col-lg-4, .col-md-6, .col-sm-12 {
@@ -60,6 +60,7 @@ h1 {
     .col-md-6 {
         width: 50%;
     }
+
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
