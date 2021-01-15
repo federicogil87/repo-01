@@ -1,0 +1,42 @@
+* {
+    font-family: 'Courgette', cursive;
+    box-sizing: border-box;
+}
+
+.col-xs-12 {
+    background-color: gray;
+    margin-bottom: 30px;
+}
+
+#main-box {
+    width: 100%;
+}
+
+#header-nav {
+    background-color: khaki;
+    border: 0;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.page-title {
+    margin-bottom: 20px;
+}
+
+#main-box-title {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+}
